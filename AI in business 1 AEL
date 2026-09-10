@@ -23,3 +23,21 @@ The platform will be developed by directing an agentic CLI instead of building t
 The platform must be usable by a non-coder, so users should be able to run the research workflow through clear instructions without needing programming knowledge. Every automated step must also have a manual fallback in case the platform or an agent cannot complete the task.
 
 The platform must work with both Dutch and English source material. It should be able to retrieve, translate and assess Dutch sources, such as CBS, the Chamber of Commerce, sector organisations, regional news and Dutch interviews. This ensures that language does not determine who on the team can perform the research.
+
+
+
+6. Out of Scope, for Now
+
+For the first version of the platform, we will focus only on the functions that are necessary to support our research process and produce handbook pages. We will not build a completely new website, mobile application or other publishing platform, because the existing handbook website and wiki will be used.
+
+The platform will also not make final decisions for SME owners or provide personalised business advice. Its purpose is to support research and present reliable information that can help SME owners make their own decisions. Fully automatic publication is also out of scope. Every handbook page must be reviewed and approved by a team member before publication.
+
+Advanced features such as training our own AI model, complex data dashboards or fully automated processing of every possible source type are not part of the first version. These features may be considered later if they become relevant to the project.
+
+7. Open Questions and Assumptions
+
+At this stage, several questions are still open because the platform is a first draft and will develop throughout the project. We still need to determine which AI tools and agents are most suitable for retrieving, translating, assessing and processing sources. We also need to find out how accurately the platform can process Dutch interview transcripts and whether additional manual checks are needed.
+
+Another open question is how the platform will determine whether a source is reliable, relevant and recent enough to use in the handbook. We also need to decide how the different steps of the research workflow will work together within the agentic CLI.
+
+For now, we assume that the platform will have access to enough reliable Dutch and English sources to support the research. We also assume that AI-generated translations and summaries can be used as a first draft, but that human verification remains necessary before information is included in a published handbook page.
