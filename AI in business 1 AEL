@@ -1,13 +1,18 @@
-4. Quality Criteria for the Handbook
+1. Problem and Users
 
-The handbook should be practical, clear and relevant for the selected SME target group. It will be considered useful when it meets the following criteria:
+The platform supports our research team in turning raw research material into reliable handbook pages about AI for SMEs. Research information can come from many different sources, such as reports, websites, statistics and interviews. The platform should help us process this information in a consistent and efficient way.
 
-Clear and understandable: the handbook should use simple language so that managers without technical AI knowledge can understand it.
-Relevant to the target group: the information should match the sector, size and situation of the selected SMEs.
-Reliable and up to date: important statements should be supported by recent and credible sources.
-Practical: the handbook should include realistic examples and show how AI could be used in daily business activities.
-Balanced: both opportunities and risks of AI should be discussed, so companies can make realistic decisions.
-Action-oriented: the handbook should help SMEs decide what their next step could be, for example exploring a use case, starting a small pilot or deciding not to invest yet.
-Easy to use: the structure should be clear so that readers can quickly find the information that is relevant to them.
+The primary users are the student research team who create the handbook. The secondary users are SME owners and managers who read the final handbook. For them, the information should make AI easier to understand and help them decide whether certain AI developments or applications are relevant to their business.
 
-These criteria will later be used to evaluate whether the final handbook is useful for the intended audience.
+2. What the Platform Must Let a User Do
+
+The platform should support the complete research process from raw source material to a published handbook page. Users should be able to collect and add sources, check whether they are relevant, reliable and recent, and process both Dutch and English material. Dutch sources should be translated into English without losing the original meaning.
+
+After the sources have been processed, the platform should help select the most important findings and turn them into a structured first draft. The research team must always be able to manually review, correct and approve the content before it is published on the existing handbook site. In this way, the platform supports the researcher instead of fully replacing human judgement.
+
+3. Output Qualities
+
+A good handbook page produced by the platform should be clear, accurate, relevant and practical. The language should be understandable for SME owners without specialist knowledge of AI. Important claims should be supported by reliable and recent sources so that the information can be trusted.
+
+The page should also give a balanced view of AI by explaining both opportunities and possible risks or limitations. Most importantly, the information should be useful in practice. An SME owner should understand what the findings mean for their organisation and what a possible next step could be.
+
