@@ -16,3 +16,10 @@ A good handbook page produced by the platform should be clear, accurate, relevan
 
 The page should also give a balanced view of AI by explaining both opportunities and possible risks or limitations. Most importantly, the information should be useful in practice. An SME owner should understand what the findings mean for their organisation and what a possible next step could be.
 
+4. Known Constraints
+
+The platform will be developed by directing an agentic CLI instead of building the system completely by hand. We will reuse the existing handbook website and wiki rather than creating new infrastructure.
+
+The platform must be usable by a non-coder, so users should be able to run the research workflow through clear instructions without needing programming knowledge. Every automated step must also have a manual fallback in case the platform or an agent cannot complete the task.
+
+The platform must work with both Dutch and English source material. It should be able to retrieve, translate and assess Dutch sources, such as CBS, the Chamber of Commerce, sector organisations, regional news and Dutch interviews. This ensures that language does not determine who on the team can perform the research.
