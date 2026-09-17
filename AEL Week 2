@@ -1,1 +1,45 @@
+AEL — the technical blueprint
 
+1
+
+Context reader
+Reads the shared context (our target SME, quality criteria, and scope).
+
+Add
+Gathers and imports raw sources and documents.
+
+Appraise
+Critically evaluates each added source against our quality criteria.
+
+Translate
+Translates the approved source insights into the specified language.
+
+Draft
+Generates a first draft of the handbook page based on the critically evaluated sources.
+
+Check
+Strictly checks the draft for factual accuracy, source references, and other criteria from the PRD.
+
+Publish
+Formats and publishes the approved page definitively to the shared handbook repository.
+
+2
+
+Architectural Design: Pipeline & Contracts (Shape 6)
+Our platform uses a pipeline approach where each stage takes a file and produces a file. This file serves as the contract between parts, allowing team members to build stages simultaneously.
+
+Seam & Contract Definition
+The Seam: The handoff between the Appraise part and the Draft part.
+
+File Name: appraised_source.json
+
+File Shape:
+
+JSON
+{
+  "source_id": "string",
+  "author_or_organisation": "string",
+  "reliability_justification": "string (1 line)",
+  "key_findings": ["list of strings"],
+  "company_relevance": "string"
+}
