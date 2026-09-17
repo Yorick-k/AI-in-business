@@ -43,3 +43,22 @@ JSON
   "key_findings": ["list of strings"],
   "company_relevance": "string"
 }
+
+3. The line nothing may cross
+To make sure there is full compliance and safeguard internal knowledge, the following requirement represents the line nothing may cross for this PRD:
+Confidential SME interview data must not be sent to external AI services and must remain within the team's controlled research environment.
+
+4. The trace to the PRD
+PRD requirement:                                         Blueprint part:
+Collect and add research sources                         Add
+Assess relevance reliability and recency                 Appraise
+Be able to work with both dutch and english sources      Translate
+Preserve the meaning of Dutch source material            Translate
+Select important findings                                Appraise
+Create a structured first draft                          Draft
+Check factual accuracy and source references             Check
+Apply the quality criteria                               Check
+Allow human correction and approval                      Check
+Prevent fully automatic publication                      Check
+Publish using the existing handbook repository           Publish
+Provide a manual fallback                                Each automated stage
