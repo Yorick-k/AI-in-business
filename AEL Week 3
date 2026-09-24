@@ -1,3 +1,51 @@
+1
+
+The platform needs different types of information to support the research
+process and create reliable handbook pages. The main inputs are the shared
+project context, research sources, appraised sources, field research and
+existing drafts.
+
+The **shared context** tells the platform what the project is about. This
+includes the target SME, research question, quality criteria and relevant
+requirements from the PRD. This context helps the platform understand what
+information is relevant when answering a research question.
+
+The platform also needs access to **research sources**. These can include
+reports, academic research, government publications, statistics and
+websites. Sources can be in both Dutch and English. Dutch sources may first
+need to be translated before they can be used in the research process.
+
+Sources that pass the Appraise stage are stored as structured
+**appraised sources**. The `appraised_source.json` file contains information
+such as the source ID, author or organisation, reliability justification,
+key findings and relevance to the company. The source ID allows information
+to remain traceable to the original source.
+
+The platform also works with **approved information from field research**,
+such as relevant findings from SME interviews. Raw interview notes, names,
+personal data and confidential company information are not directly
+available to the AI platform. They remain in the protected HAN environment.
+Only information that has been manually reviewed and, where necessary,
+anonymised can become part of the research material available to the
+platform.
+
+Finally, the platform needs access to **draft handbook pages and previous
+research findings**. These help the platform create consistent handbook
+content. Drafts remain separate from appraised sources because AI-generated
+text should not be treated as evidence.
+
+The platform therefore works with five main types of knowledge:
+
+**Shared context → Research sources → Appraised sources → Approved field
+research → Drafts**
+
+Together, these provide the knowledge needed to answer research questions
+while keeping sources traceable and protected information separated from
+AI-accessible material.
+
+
+
+
 2 
 We choose a retrieval based approach. The research sources, appraised sources, translations and drafts are stored in the team's controlled project environment. The existing handbook repository is used for the final approved pages.
 
