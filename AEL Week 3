@@ -57,6 +57,13 @@ Question -> Context => Relevant stored sources -> Appraised findings -> Draft ->
 
 This approach allows the platform to retrieve relevant information when it is needed instead of compiling all sources into one large document in advance. Because each appraised source has a source ID, the findings used in a draft can be traced back to the original source for verification.
 
+3 Why this and not the alternatives: 
+Our platform uses a retrieval-based system. All research sources, translated files, and notes are stored safely in our project folder. 
+Instead of sending all our documents to the AI at once, the system only searches for and reads the specific files it needs when someone asks a question.
+
+Why this fits our PRD:
+
+
 AEL 4 – The line, kept
 4. The line, kept
 Our platform separates public research material from protected information. Public sources, approved research documents and reviewed drafts may be processed by the AI-platform. Raw interview notes, names, personal data and confidential company information stay on the protected side of the system.
