@@ -67,6 +67,14 @@ Why this fits our PRD:
 2: No invented facts: By forcing the AI to read our stored files, it uses correct and recent Dutch facts instead of guessing.
 3: Human control: The process happens step-by-step first Check source then Write draft lastly Final review. This means a student can check or fix the work at any moment.
 
+Other options we did not choose:
+Option A: Put all sources into one big file first
+What it is: Combining all articles and interview notes into one big PDF or text document and feeding it to the AI every time.
+Why we did not choose it: Important details and exact source links get lost when you summarize everything beforehand. Also, one big file quickly becomes too large for the AI to read properly.
+
+Option B: Let the AI write without reading our files
+What it is: Asking the AI questions directly and trusting its own memory.
+Why we did not choose it: General AI models do not know specific, recent details about Dutch SMEs and will invent facts. This violates our rule that all information must be based on real sources.
 
 AEL 4 – The line, kept
 4. The line, kept
