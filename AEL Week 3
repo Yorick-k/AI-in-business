@@ -123,3 +123,46 @@ with AI before we use their answers in our research.
 We will look for practical SME cases during desk research and ask the
 interviewed company about AI or automation they have already tested,
 including what worked and what did not.
+
+# Open Questions – Week 2
+
+**1. How will the Check stage determine if a draft is clear, relevant and practical?**  
+The Check stage will verify that the language is understandable, the content
+answers the research question, important claims have sources, and the page
+includes practical information or a next step for the SME.
+
+**2. What files are passed between the different stages of the pipeline?**  
+We will use a consistent file structure:
+`source.json` → `translated_source.json` → `appraised_source.json` →
+`draft.md` → `checked_draft.md` → `published_page.md`.
+This makes each step traceable and easier to check.
+
+**3. Which project research question does the geopolitical search actually support?**  
+It does not directly support our main research question and was mainly used
+as a search exercise. For the actual project, searches should focus on our
+sub-questions, for example which SME workflows are suitable for AI
+automation and what benefits, costs and risks are involved.
+
+**4. What rule determines whether a new source should be included?**  
+A source should be included when it is relevant to the research question,
+comes from a credible author or organisation, is sufficiently recent and
+supports its claims with evidence. Sources that fail important criteria
+should be excluded or clearly marked as limited.
+
+**5. What would a source that fails the quality assessment look like?**  
+For example, an outdated article with no identifiable author, no supporting
+evidence and little relevance to the research question would fail. A source
+with a strong bias may still be useful, but only when its perspective is
+clearly identified and compared with other evidence.
+
+**6. What should be entered as `company_relevance` for general sources?**  
+It should explain how the findings could apply to the selected SME or its
+workflows. If there is no meaningful connection, this should be stated.
+This also shows that Appraise should mainly process sources connected to our
+actual SME research questions.
+
+**7. How will the search strategy include Dutch sources relevant to our sector?**  
+We will also search in Dutch using terms such as "AI automatisering MKB",
+"AI administratieve processen" and "AI zakelijke dienstverlening". We will
+prioritise relevant Dutch sources such as CBS, KVK, sector organisations
+and practical SME cases.
