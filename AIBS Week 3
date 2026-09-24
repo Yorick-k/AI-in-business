@@ -9,6 +9,13 @@ This also applies to source assessment and the handbook. AI can assess sources, 
 
 The boundary is set in the following way: AI can perform routine research tasks and provide recommendations, while humans remain responsible for verification, decisions and final approval.
 
+What happens when staff use AI and do not say so?
+When employees use free AI tools for work without telling their manager, this is called Shadow AI using unapproved technology behind the company's back.
+In a business with 15 to 75 employees, staff often do this to write emails or reports faster. However, undisclosed AI use creates major risks for the owner:
+1. Company data leaves the building: Employees might paste client names, invoices, or private emails into free AI tools. These free tools often save that data to train their public models, meaning your private business information is no longer safe.
+2. Paying for AI mistakes: AI can make mistakes or invent facts while sounding very convincing. If an employee copies an AI mistake into a contract or client advice without checking it, your company is legally responsible for the damage.
+3. Breaking privacy laws: Businesses must follow strict privacy laws and EU AI rules. If you do not know your team is using AI, you cannot protect client data or follow the law.
+
 AIBS – Sources, transparency and final control
 Sources, transparency and final control
 An AI answer should not be trusted only because it sounds convincing. An SME should be able to see where important claims come from. Our platform therefore links important claims to their original sources and records the organisation or author behind the information. NIST describes transparency and accountability as important parts of trustworthy AI. 
@@ -16,12 +23,6 @@ Sources are also checked before they are used. We look at who published the info
 The platform may help search, compare information and create a first draft, but it does not make the final publication decision. AI drafts; the team checks. Before publication, a team member checks whether the claim actually matches the original source, whether important context is missing and whether confidential or personal information has accidentally been included.
 Transparency also matters when AI is used towards other people. The EU AI Act contains specific transparency requirements for certain AI systems, and those Article 50 requirements have applied since 2 August 2026. This does not mean every SME use of AI has exactly the same legal requirements, but it shows why businesses should know when, where and how AI is being used.
 
-What happens when staff use AI and do not say so?
-When employees use free AI tools for work without telling their manager, this is called Shadow AI using unapproved technology behind the company's back.
-In a business with 15 to 75 employees, staff often do this to write emails or reports faster. However, undisclosed AI use creates major risks for the owner:
-1. Company data leaves the building: Employees might paste client names, invoices, or private emails into free AI tools. These free tools often save that data to train their public models, meaning your private business information is no longer safe.
-2. Paying for AI mistakes: AI can make mistakes or invent facts while sounding very convincing. If an employee copies an AI mistake into a contract or client advice without checking it, your company is legally responsible for the damage.
-3. Breaking privacy laws: Businesses must follow strict privacy laws and EU AI rules. If you do not know your team is using AI, you cannot protect client data or follow the law.
 
 
 
