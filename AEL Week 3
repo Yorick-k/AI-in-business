@@ -1,0 +1,22 @@
+AEL 4 – The line, kept
+4. The line, kept
+Our platform separates public research material from protected information. Public sources, approved research documents and reviewed drafts may be processed by the AI-platform. Raw interview notes, names, personal data and confidential company information stay on the protected side of the system.
+Protected material is stored in the team’s secured HAN Teams/SharePoint environment. There is no automatic connection between this protected folder and the external AI-model. Before information can cross this boundary, a team member must manually review it and remove personal or confidential information. Only approved and, where necessary, anonymised excerpts may be used by the platform.
+This boundary is important because personal data should be limited to what is actually necessary for a specific purpose under the GDPR principle of data minimisation. The European Data Protection Board also specifically addresses the processing of personal data in the context of AI-models. 
+
+Simple architecture:
+Our platform separates protected information from information that the AI is allowed to use. Raw interviews, names, personal data, confidential company information and internal documents stay in the protected HAN environment. Before any information can be used by the AI-platform, a team member checks it and removes personal or confidential details. Only approved and anonymised information is allowed to cross this boundary. The AI-platform can then use this information, together with public research sources, to analyse sources and create a first draft of the handbook page. This way, sensitive information stays protected while the AI can still support the research and writing process.
+
+Decision Log – Entry 1
+
+Decision 01 – Separate protected material from AI-accessible material
+Decision
+We decided to create a clear separation between protected company/interview data and information that the AI platform is allowed to process.
+What did not work / risk identified
+Our first architecture could allow the platform to use all available research material. This would make the answers richer, but it would also create the risk that personal or confidential information from interviews or SMEs is sent to an external AI service.
+What we changed
+We introduced two information zones. Raw interviews, personal data and confidential company information remain in the protected HAN environment. The AI platform can only access public sources and information that has first been manually reviewed and approved.
+Why we changed it
+The GDPR requires personal data to be adequate, relevant and limited to what is necessary. NIST also identifies security, accountability and transparency as important characteristics of trustworthy AI systems. 
+Effect on the platform
+The platform may have slightly less context, but it becomes easier to understand which information AI can access and easier to check whether sensitive information stays protected.
