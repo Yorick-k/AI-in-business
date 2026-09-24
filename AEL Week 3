@@ -76,6 +76,10 @@ Option B: Let the AI write without reading our files
 What it is: Asking the AI questions directly and trusting its own memory.
 Why we did not choose it: General AI models do not know specific, recent details about Dutch SMEs and will invent facts. This violates our rule that all information must be based on real sources.
 
+We would switch to a different system like an automated search database if:
+1: We get so many sources and interviews that searching through our normal folders becomes too slow.
+2: The AI fails to connect information that is spread across many different interview files.
+
 AEL 4 – The line, kept
 4. The line, kept
 Our platform separates public research material from protected information. Public sources, approved research documents and reviewed drafts may be processed by the AI-platform. Raw interview notes, names, personal data and confidential company information stay on the protected side of the system.
