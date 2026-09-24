@@ -79,3 +79,47 @@ Why we changed it
 The GDPR requires personal data to be adequate, relevant and limited to what is necessary. NIST also identifies security, accountability and transparency as important characteristics of trustworthy AI systems. 
 Effect on the platform
 The platform may have slightly less context, but it becomes easier to understand which information AI can access and easier to check whether sensitive information stays protected.
+
+5 
+
+**1. Why use an agentic CLI instead of building the platform completely by hand?**  
+The agentic CLI reduces manual work and makes the research workflow easier
+to repeat. It also allows non-coders to use the platform through clear
+instructions.
+
+**2. How will the platform check if a page is clear, accurate, relevant and practical?**  
+Claims must be traceable to appraised sources, the content must match the
+research question and target SME, and the page must provide practical
+information or a next step.
+
+**3. How will the platform provide a balanced view if a reliable source only presents one side?**  
+The platform will look for other reliable sources that provide another
+perspective. If these cannot be found, this limitation will be stated
+instead of creating unsupported arguments.
+
+**4. What happens if there are not enough reliable Dutch and English sources?**  
+The platform will identify the missing evidence instead of generating
+unsupported claims. The team can then search for more sources or state the
+limitation.
+
+**5. How will the platform make sure Dutch translations keep their original meaning?**  
+The original Dutch passage, English translation and source ID will be kept
+together. Important or uncertain translations will be checked manually.
+
+**6. What do the different SMEs in our target group have in common?**  
+They mainly have similar administrative and information-based workflows,
+such as emails, documents, customer data and invoices. We focus on these
+shared processes.
+
+**7. Does it matter whether AI tools come from European or US vendors?**  
+Yes. The provider can affect privacy, data storage, costs and regulations,
+so this should be considered when evaluating AI tools.
+
+**8. Do we assume the SME already understands AI automation?**  
+No. The interview will also establish their current knowledge and experience
+with AI before we use their answers in our research.
+
+**9. How will we find out what comparable SMEs have already tried?**  
+We will look for practical SME cases during desk research and ask the
+interviewed company about AI or automation they have already tested,
+including what worked and what did not.
