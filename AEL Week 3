@@ -1,3 +1,14 @@
+2 
+We choose a retrieval based approach. The research sources, appraised sources, translations and drafts are stored in the team's controlled project environment. The existing handbook repository is used for the final approved pages.
+
+When a user asks a research question, the platform first uses the shared context to determine the relevant topic, target SME and quality criteria. It then retrieves the relevant information from the stored research material. For sources that have already passed the Appraise stage, the platform uses the structured `appraised_source.json` file, which contains the source ID, author or organisation, reliability justification, key findings and company relevance.
+
+The path is:
+
+Question -> Context => Relevant stored sources -> Appraised findings -> Draft -> Check -> Human approval -> Handbook
+
+This approach allows the platform to retrieve relevant information when it is needed instead of compiling all sources into one large document in advance. Because each appraised source has a source ID, the findings used in a draft can be traced back to the original source for verification.
+
 AEL 4 – The line, kept
 4. The line, kept
 Our platform separates public research material from protected information. Public sources, approved research documents and reviewed drafts may be processed by the AI-platform. Raw interview notes, names, personal data and confidential company information stay on the protected side of the system.
