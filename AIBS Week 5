@@ -281,3 +281,62 @@ Whether the source supports the final claim.
 The name of the person who checked it.
 
 If no relevant source is found, the platform should report that the evidence is missing instead of creating an unsupported answer.
+
+Evaluation Report:
+
+## 1. What This Test Does
+
+As the team's **Tester**, I tested the text created by our AI platform (`Handbook_AI_Email_Automation.md`) in two simple steps:
+1. **PRD Quality Check:** Does the text meet our project rules (easy to read, useful for SMEs, balanced, and safe)?
+2. **Source Fact Check:** Can we find every fact and number back in the original source file (`Appraised_Sources_AI_Email.json`)?
+
+---
+
+## 2. Test 1: PRD Quality Check
+
+I checked the AI text against our project quality rules:
+
+| Quality Rule | Result | What I Found |
+| :--- | :---: | :--- |
+| **1. Easy to Read** | **PASSED** | Uses plain English without hard words. Technical terms like prompt injection are explained simply as *"instructions found inside inbound messages"*. |
+| **2. Fits the Target Group** | **PASSED** | Made specifically for Dutch service SMEs with 15–75 workers who answer customer emails. |
+| **3. Recent & Reliable** | **PASSED** | All facts come from reliable 2025/2026 sources like CBS, EDPB, AP, and NIST. |
+| **4. Honest & Balanced** | **PASSED** | Shows both the good side (saving time) and the risks (privacy rules, security, and mistakes). |
+| **5. Practical Steps** | **PASSED** | Gives clear next steps: a 6-week trial plan, a cost calculator, and a decision card. |
+| **6. Human Control** | **PASSED** | Follows the rule that AI only writes drafts. A human worker must always check and send the email. |
+
+---
+
+## 3. Test 2: Source Fact Check
+
+I checked if the facts in the text match our original source file (`Appraised_Sources_AI_Email.json`). All 14 sources (`[S01]` to `[S14]`) match correctly:
+
+### Fact Check 1: AI Usage in NL (`[S01]`, `[S02]`)
+* **Text says:** Statistics Netherlands reported that 33% of businesses with at least 10 working persons used AI in 2025 (`[S01]`).
+* **Source file says:** `"In 2025, 33% of Dutch enterprises with at least 10 working persons used one or more of eight surveyed AI technologies."`
+* **Result:** **MATCH / CORRECT**
+
+### Fact Check 2: Time Saved (`[S03]`)
+* **Text says:** A 2025 study of 5,172 support agents showed a 15% increase in issues solved per hour (`[S03]`).
+* **Source file says:** `"Access to generative AI assistance increased issues resolved per hour by 15% on average across 5,172 support agents in this setting."`
+* **Result:** **MATCH / CORRECT**
+
+### Fact Check 3: Safety & Privacy (`[S08]`, `[S12]`)
+* **Text says:** Mentions OWASP rules for prompt injection (`[S12]`) and the AP's July 2026 guidance tool (`[S08]`).
+* **Source file says:** Source `S08` contains the AP tool; source `S12` contains the OWASP rules.
+* **Result:** **MATCH / CORRECT**
+
+---
+
+## 4. Privacy Check ("The Line, Kept")
+
+* **Privacy Rule:** Real customer emails and private interview notes must NEVER go into public AI tools.
+* **Result:** **PASSED.** The text only uses public research and invented test numbers. Private notes stay safe in the HAN environment.
+
+---
+
+## 5. Final Result & Approval
+
+* **PRD Quality Check:** **PASSED**
+* **Source Fact Check:** **PASSED (14/14 sources checked)**
+* **Status:** **READY FOR TEAM REVIEW** (The text is correct and checked, ready for the team's final review before publishing).
