@@ -103,6 +103,89 @@ The GDPR requires personal data to be adequate, relevant and limited to what is 
 Effect on the platform
 The platform may have slightly less context, but it becomes easier to understand which information AI can access and easier to check whether sensitive information stays protected.
 
+
+Decision 02 – Use a retrieval-based approach
+
+Decision
+We use a retrieval-based system. The AI first searches the available research sources before creating an answer or draft.
+
+Why we made this decision
+We want to prevent the AI from creating information without reliable evidence. By retrieving relevant documents, we can connect important claims to their original sources.
+
+Alternative considered
+We considered allowing the AI to answer directly without retrieving sources. However, this increases the risk of incorrect information and makes the results harder to check.
+
+Effect on the platform
+The platform follows this process: question → retrieve sources → appraise information → create draft → check → human approval.
+
+Status
+Documented in AEL Week 3. The practical implementation still needs testing.
+
+Decision 03 – Use structured source records
+
+Decision
+We use the appraised_source.json format to document approved research sources.
+
+Why we made this decision
+A structured format helps the team identify the author, reliability, important findings and relevance of each source.
+
+Alternative considered
+We could store all sources as ordinary notes. However, this would make it harder to find important information and connect claims to their original sources.
+
+Effect on the platform
+Each appraised source contains a source ID, author or organisation, reliability justification, key findings and company relevance.
+
+Status
+The format is defined in AEL Week 2. We still need to confirm that all sources used in the handbook have been recorded.
+
+Decision 04 – Human approval before publication
+
+Decision
+The AI can prepare a handbook draft, but a team member must review and approve it before publication.
+
+Why we made this decision
+AI-generated information can contain mistakes or incorrect interpretations. Human verification is necessary to protect the quality of the handbook.
+
+Alternative considered
+Automatic publication would be faster, but it would increase the risk of publishing inaccurate information.
+
+Effect on the platform
+The Check stage must verify sources, factual accuracy, relevance and the quality criteria. The final publication decision remains with the research team.
+
+Status
+This requirement is included in the PRD. Actual end-to-end verification is still required.
+
+Decision 05 – Extend the target group to include microbusinesses
+
+Decision recorded in AIBS Week 5
+Page 2 uses a target group of 2–75 employees instead of the earlier 15–75 employees.
+
+Why this change was proposed
+The planned interview concerns a business-service firm with two employees. Including microbusinesses allows the handbook to address this smaller company's situation.
+
+Risk identified
+A company with two employees may have different needs, budgets and workflows from a company with 75 employees.
+
+Effect on the handbook
+Recommendations should explain where the advice differs between very small and larger SMEs.
+
+Status
+Proposed change documented in AIBS Week 5. The team must confirm that the new target group is accepted and update Page 1 and the research proposal accordingly.
+
+Decision 06 – LLM Wiki adoption (pending)
+
+Decision
+The team is considering using the LLM Wiki based on the GitHub template.
+
+Reason
+A shared wiki could help the team organise sources, search information and keep research findings traceable.
+
+Required checks
+The team must confirm that the wiki can be installed, the lint check works, the first source can be ingested and the original passages can be retrieved.
+
+Status
+Pending. This decision must only be marked as accepted after the team confirms that the wiki has been adopted.
+
 5 
 
 **1. Why use an agentic CLI instead of building the platform completely by hand?**  
