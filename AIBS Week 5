@@ -1,3 +1,48 @@
+Three Economies, Seen From Our Sector:
+
+**Team Assignment:** IBS / AIBS Workshop  
+**Target Sector:** Dutch Business Services SMEs (15–75 employees)  
+**Selected Region:** United States (US)  
+
+## 1. Front-Runner Use Case Cards (US Region)
+
+### Card 1: LegalTech & Document Workflow (e.g., Harvey AI / Ironclad)
+* **1. What does the AI do?** It reads, drafts, and flags risk areas in client contracts and invoices in seconds, reducing routine review time for our administrative staff.
+* **2. Whose AI is it?** Built by proprietary US AI vendors (OpenAI / Anthropic foundation models on Microsoft Azure/AWS); the vendor owns the model, while the client owns the raw contract data.
+* **3. Who gains, and who pays?** Owners gain through higher capacity and lower costs; administrative staff face changing job roles; clients get faster responses.
+* **4. What does it need from the country around it?** Massive private venture capital funding, high energy/cloud infrastructure, top AI talent, and a market-driven regulatory environment with low initial friction.
+* **5. What does it tell you about the US economy?** The US builds a market-capitalist economy focused on rapid commercialization, massive cloud scale, and labor efficiency.
+
+---
+
+### Card 2: Customer Communications & Triage (e.g., Sierra AI / Intercom Fin)
+* **1. What does the AI do?** It acts as an autonomous front-office assistant that reads incoming client emails, resolves routine inquiries, and prepares draft responses for human review.
+* **2. Whose AI is it?** Built by US technology platforms; hosted on US cloud providers; fine-tuned on company knowledge bases.
+* **3. Who gains, and who pays?** SME owners gain 24/7 client response capability; operational staff spend less time on repetitive email triage; software platforms capture recurring revenue.
+* **4. What does it need from the country around it?** High digital adoption, flexible labor markets, and strong competition among tech providers.
+* **5. What does it tell you about the US economy?** It shows an economy driven by hyper-efficiency, platform market power, and rapid replacement of routine human tasks with software agents.
+
+---
+
+## 2. A Postcard from 2035
+
+### Front of the Postcard
+* **Headline:** *"The 10-Person Firm with the Output of 50"*
+* **Visual Concept:** A modern office where our team reviews automated AI dashboards on screens, while intelligent agents automatically organize incoming client files, invoices, and email queries in real time.
+
+### Back of the Postcard
+> *"Greetings from 2035! Our business service firm hasn't typed a routine email or manually categorized an invoice in five years. Autonomous AI agents handle 80% of our daily customer intake and drafting before we even open our laptops. Our day isn't about paperwork anymore—it's 100% about talking to clients and making strategic decisions. We deliver twice the work, but we rely entirely on cloud platforms we don't own."*
+> 
+> *— Written by our Business Services Team*  
+> *(AI Generation note: Visual concept generated via LLM/image model based on US workflow automation trends).*
+
+---
+
+## 3. Portfolio Takeaways & Reflection
+
+* **What surprised us:** We were surprised by how much the US model relies on a few massive private tech platforms owning the underlying infrastructure, while European SMEs primarily act as buyers rather than owners of the AI models.
+* **Whether we changed our mind:** We changed our mind about AI adoption speed: true productivity gains come from integrating AI into daily team routines (like email and document processing) rather than buying complex standalone tools.
+
 # Page 2 — AI use cases at SMEs
 
 ## Theme — What do firms like mine use AI for, and what pays off?
