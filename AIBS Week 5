@@ -179,3 +179,105 @@ Each source with who stands behind it, why it is worth believing, and its limit.
 | [Getting started: Automatische Factuurverwerking](https://files.exact.com/static/web/downloads/NL-SME-Getting-started-Automatische-Factuurverwerking.pdf) | Exact, a software vendor | Shows what the product does | Vendor material: shows the product exists, not that it works |
 | [Exact boekhoudprogramma](https://www.onderneming.nl/boekhoudprogramma/exact/) (6 May 2026) | Onderneming.nl, comparison site | Recent, lists prices | Prices may have changed; check with Exact |
 | [Moneybird boekhoudprogramma](https://www.onderneming.nl/boekhoudprogramma/moneybird/) (6 Jul 2026) | Onderneming.nl, comparison site | Recent, lists prices | Unclear whether recognition is in every plan; check with Moneybird |
+
+
+Lookup Records
+
+The purpose of a Lookup Record is to show how a research question is connected to retrieved information and the passage used in the handbook.
+
+The records below reconstruct examples from existing AIBS material. They are not logs of completed platform retrieval tests.
+
+Lookup Record 01 – AI adoption by company size
+
+Question
+How many Dutch SMEs currently use AI, and how does adoption differ by company size?
+
+Retrieved source
+CBS – Bedrijven gebruiken AI vaakst voor marketing of verkoop, published 12 December 2025.
+
+Source: https://www.cbs.nl/nl-nl/nieuws/2025/50/bedrijven-gebruiken-ai-vaakst-voor-marketing-of-verkoop
+
+Relevant information
+According to CBS, 14% of Dutch companies with 2–10 employees used at least one AI technology in 2025. For companies with 10–50 employees, this percentage was 27%.
+
+Used passage in the handbook
+"In 2025, 14% of Dutch firms with 2–10 people used at least one AI technology, against 27% of firms with 10–50 people."
+
+Location
+AIBS Week 5, Page 2, Section 2.
+
+Verification
+The figures match the published CBS table. The figures for 2025 are preliminary.
+
+Result
+Numerical claim checked against the original source.
+
+Lookup Record 02 – Barriers to AI adoption
+
+Question
+What prevents Dutch microbusinesses from using AI?
+
+Retrieved source
+CBS – Gebruik van AI-technologie door Nederlandse microbedrijven, Chapter 6, published 16 March 2026.
+
+Source: https://www.cbs.nl/nl-nl/longread/rapportages/2026/gebruik-van-ai-technologie-door-nederlandse-microbedrijven/6-redenen-geen-ai-technologie
+
+Relevant information
+Among microbusinesses that considered AI but did not adopt it, 71.6% reported lack of experience, 48.8% mentioned privacy and 42.7% mentioned legal consequences. Costs were mentioned by 20.3%.
+
+Used passage in the handbook
+"Of Dutch microbusinesses that considered AI and decided against it, 72% named lack of experience, 49% privacy and 43% legal consequences; 20% said it cost too much."
+
+Location
+AIBS Week 5, Page 2, Section 2.
+
+Verification
+The handbook percentages are correctly rounded from the CBS figures. They only apply to businesses that considered using AI but decided against it.
+
+Result
+Numerical claim checked against the original source.
+
+Lookup Record 03 – AI invoice processing
+
+Question
+Which AI application could help SMEs reduce repetitive administrative work?
+
+Retrieved source
+Exact – Getting started: Automatische Factuurverwerking.
+
+Source: https://files.exact.com/static/web/downloads/NL-SME-Getting-started-Automatische-Factuurverwerking.pdf
+
+Relevant information identified in the draft
+The Exact product material is used to describe invoice scanning, document processing and approval workflows.
+
+Used passage in the handbook
+"The AI invoice feature in your own accounting package reads invoices, suggests bookings and routes approval."
+
+Location
+AIBS Week 5, Page 2, Section 4.
+
+Verification
+The source is a supplier document. It can demonstrate available product features, but it does not independently prove time savings or financial benefits. The original PDF must still be checked against the exact claim before final approval.
+
+Result
+Source identified; original-passage verification pending.
+
+Part 3 – Lookup Record requirements for platform testing
+
+When the platform is tested, each actual lookup should record:
+
+The question entered by the user.
+
+The date and the platform or tool used.
+
+The retrieved source ID and original URL.
+
+The exact retrieved passage.
+
+The passage used in the output.
+
+Whether the source supports the final claim.
+
+The name of the person who checked it.
+
+If no relevant source is found, the platform should report that the evidence is missing instead of creating an unsupported answer.
